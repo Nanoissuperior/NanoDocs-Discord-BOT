@@ -1,4 +1,8 @@
-<img src="DOCS.png" align="right" />
+<img src="DOCS.png" />
+
+
+
+
 
 
 # NanoDocs Discord BOT
