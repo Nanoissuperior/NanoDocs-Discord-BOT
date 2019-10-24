@@ -1,4 +1,4 @@
-# NanoDocs Discord BOT  <img src="DOCS.png" />
+# NanoDocs Discord BOT 
 
 Discord bot written in Python - Pulls info from https://docs.nano.org/commands/rpc-protocol/
 
