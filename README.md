@@ -6,4 +6,6 @@ Discord BOT writtin in python that pulls information from https://docs.nano.org/
 
 ```
 #rpc account_info 
+#rpc chain
+#rpc *another example*
 ```
