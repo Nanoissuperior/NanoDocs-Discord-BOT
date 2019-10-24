@@ -30,7 +30,7 @@ Pull requests are welcome.
 For more info or to discuss major changes please contact `nanoissuperior or dotcom` on [Discord](https://discordapp.com/invite/JphbBas).
 
 
-Other Nano Projects:
+My Other Nano Projects:
 
 [NanoPixelWall](https://nanopixelwall.com)
 
