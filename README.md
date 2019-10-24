@@ -1,4 +1,4 @@
-<img src="icon.png" align="right" />
+<img src="DOCS.png" align="right" />
 
 
 # NanoDocs Discord BOT
