@@ -8,20 +8,13 @@ The info can  be called using either a command or sending a link.
 
 See examples below: 
 
-
 ```bash
 #rpc account_info
 
 https://docs.nano.org/commands/rpc-protocol/#account_info
 ```
+
 Both will return the description & other important info related to that section of the website.
-
-## NanoDocs.py
-
-```python
-#soon
-
-```
 
 ## Contributing
 Pull requests are welcome. 
