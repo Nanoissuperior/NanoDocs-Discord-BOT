@@ -5,6 +5,7 @@ import datetime
 import os
 import random
 import sys
+import urllib.parse
 
 import discord
 import requests
@@ -48,8 +49,8 @@ def loadRPCdescr():
         return cache['rpc']
     except KeyError:
         pass
-    print('NO CACHE')
     url = "https://docs.nano.org/commands/rpc-protocol/"
+    print('Refreshing cache from ', url)
     page = requests.get(url)
     soup = BeautifulSoup(page.text, features='lxml')
 
@@ -130,9 +131,11 @@ async def on_message(message):
         print('Error when getting RPCs: ', e)
 
     base_url = "https://docs.nano.org/commands/rpc-protocol/"
-    chunks = message.content.split('#')
-    if chunks[0] == base_url:
-        await message.channel.send(embed=rpc_list[chunks[1]])
+    parse = urllib.parse.urlparse(message.content)
+    if base_url in parse.path:
+        rpc = parse.fragment.split(' ')[0]
+        if rpc in rpc_list:
+            await message.channel.send(embed=rpc_list[rpc])
 
     await  bot.process_commands(message)
 
