@@ -3,3 +3,4 @@ discord
 lxml
 python-dotenv
 requests
+cachetools
