@@ -129,10 +129,10 @@ def loadGLOSSdescr():
         code.replaceWith('`' + code.get_text() + '`')
 
     for h4 in soup.find_all('h4'):
-        # Command name is the id of the h3
+        # Command name is the id of the h4
         command = h4.get('id')
 
-        # The description is after the h3
+        # The description is after the h4
         next_p = h4.find_next_sibling()
         fields = []
         descr = ''
