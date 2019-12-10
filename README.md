@@ -20,7 +20,7 @@ Both will return the description & other important info related to that section 
 Pull requests are welcome. 
 
 ## Other
-For more info or to discuss major changes please contact `nanoissuperior or dotcom` on [Discord](https://discordapp.com/invite/JphbBas).
+For more info or to discuss major changes please contact `nanoissuperior` on [Discord](https://chat.nano.org).
 
 
 My Other Nano Projects:
